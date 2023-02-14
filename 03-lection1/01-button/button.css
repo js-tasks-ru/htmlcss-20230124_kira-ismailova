@@ -1,16 +1,16 @@
 .button {
-    margin: 30px;
+    font-family: 'Roboto';
+    margin: 20px;
 }
 
 .button_primary {
-    font-size: 30px;
     left: 0%;
     right: 0%;
     top: 0%;
     bottom: 0%;
     background: #4263EB;
-    border-radius: 8px;
-    margin: 15px;
+    color: white;
+    border-radius: 8px;    
 }
 
 .button_primary:hover {
@@ -22,20 +22,26 @@
     cursor: grab;
 }
 
-.button_primary:disabled {
+.button_primary-disabled {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #4263EB;
+    color: white;
+    border-radius: 8px;
     cursor: not-allowed;
     opacity: 0.5;
 }
 
 .button_secondary {
-    font-size: 30px;
     left: 0%;
     right: 0%;
     top: 0%;
     bottom: 0%;
     background: #7048E8;
+    color: white;
     border-radius: 8px;
-    margin: 15px;
 }
 
 .button_secondary:hover {
@@ -47,13 +53,19 @@
     cursor: grab;
 }
 
-.button_secondary:disabled {
+.button_secondary-disabled {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #7048E8;
+    color: white;
+    border-radius: 8px;
     cursor: not-allowed;
     opacity: 0.5;
 }
 
 .button_alternate {
-    font-size: 30px;
     left: 0%;
     right: 0%;
     top: 0%;
@@ -61,7 +73,6 @@
     background: white;
     border: 1px solid #ACB5BD;
     border-radius: 8px;
-    margin: 15px;
 }
 
 .button_alternate:hover {
@@ -73,7 +84,14 @@
     cursor: grab;
 }
 
-.button_alternate:disabled {
+.button_alternate-disabled {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: white;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
     cursor: not-allowed;
     opacity: 0.5;
 }
