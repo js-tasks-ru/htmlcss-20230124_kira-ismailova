@@ -1,0 +1,35 @@
+/* Стилизация аккордеона */
+.accordion {
+    margin-top: 10px;
+    width: 730px;
+    height: 90px;   
+    left: 544px;
+    top: 227px;
+    background: #FFFFFF;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+  }
+
+.accordion__summary {
+    padding-left: 30px;
+    width: 158.86px;
+    height: 24px;
+    left: 576px;
+    top: 99px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #212429;
+}
+
+.accordion__text {
+    padding-left: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #495057;
+}
