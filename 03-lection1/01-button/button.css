@@ -1,16 +1,14 @@
 .button {
     font-family: 'Roboto';
-    margin: 20px;
+    border-radius: 8px; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 .button_primary {
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
     background: #4263EB;
-    color: white;
-    border-radius: 8px;    
+    color: white;   
 }
 
 .button_primary:hover {
@@ -19,29 +17,19 @@
 }
 
 .button_primary:active {
-    cursor: grab;
+    box-shadow: 6px 3px 3px gray;
 }
 
-.button_primary-disabled {
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
+.button_primary:disabled {
     background: #4263EB;
     color: white;
-    border-radius: 8px;
-    cursor: not-allowed;
+    pointer-events: none;
     opacity: 0.5;
 }
 
 .button_secondary {
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
     background: #7048E8;
     color: white;
-    border-radius: 8px;
 }
 
 .button_secondary:hover {
@@ -50,29 +38,19 @@
 }
 
 .button_secondary:active {
-    cursor: grab;
+    box-shadow: 6px 3px 3px gray;
 }
 
-.button_secondary-disabled {
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
+.button_secondary:disabled {
     background: #7048E8;
     color: white;
-    border-radius: 8px;
-    cursor: not-allowed;
+    pointer-events: none;
     opacity: 0.5;
 }
 
 .button_alternate {
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
     background: white;
     border: 1px solid #ACB5BD;
-    border-radius: 8px;
 }
 
 .button_alternate:hover {
@@ -81,17 +59,12 @@
 }
 
 .button_alternate:active {
-    cursor: grab;
+    box-shadow: 6px 3px 3px gray;
 }
 
-.button_alternate-disabled {
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
+.button_alternate:disabled {
     background: white;
     border: 1px solid #ACB5BD;
-    border-radius: 8px;
-    cursor: not-allowed;
+    pointer-events: none;
     opacity: 0.5;
 }
