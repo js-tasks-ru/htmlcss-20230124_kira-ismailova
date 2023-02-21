@@ -7,7 +7,7 @@
     font-family: 'Inter';
     font-style: normal;
     line-height: 24px;
-    padding: 24px 24px 0px 24px;
+    padding: 16px 24px 24px;
 }
 
 .histogram__header {
@@ -23,6 +23,7 @@
 }
 
 .histogram__link {
+    padding-top: 21px;
     color: var(--purple-light);
 }
 
@@ -36,7 +37,7 @@
 
 .histogram__items {
     height: 50px;
-    padding-top: 39px;
+    margin-top: 39px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -44,7 +45,7 @@
 
 .histogram__item {
     flex-basis: 9px;
-    margin: 1px 1px 5px 1px;
+    margin-right: 1px;
     background-color: var(--purple-light);
 }
 
