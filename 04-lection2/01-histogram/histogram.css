@@ -6,13 +6,13 @@
     max-width: 354px;
     font-family: 'Inter';
     font-style: normal;
+    line-height: 24px;
+    padding: 16px 24px 24px;
 }
 
 .histogram__header {
     display: flex;
     justify-content: space-between;
-    line-height: 24px;
-    padding: 24px 24px 0px 24px;
 }
 
 .histogram__title {
@@ -22,7 +22,8 @@
     opacity: 0.8;
 }
 
-.histogram__text {
+.histogram__link {
+    padding-top: 21px;
     color: var(--purple-light);
 }
 
@@ -31,36 +32,35 @@
     font-size: 20px;
     line-height: 26px;
     color: #212429;
-    padding-left: 24px;
     margin-top: 0px;
 }
 
-.items {
+.histogram__items {
+    height: 50px;
+    margin-top: 39px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    padding: 0px 26px 24px 24px;
 }
 
-.item {
-    width: 9px;
-    height: 20px;
-    margin: 1px 1px 5px 1px;
+.histogram__item {
+    flex-basis: 9px;
+    margin-right: 1px;
     background-color: var(--purple-light);
 }
 
-.item-high {
-    height: 50px;  
+.histogram__item_high {
+    height: 80%;  
 }
 
-.item-mid {
-    height: 35px;  
+.histogram__item_mid {
+    height: 55%;  
 }
 
-.item-low {
-    height: 11px;
+.histogram__item_low {
+    height: 15%;
 }
 
-.item-short {
-    height: 22px;
+.histogram__item_short {
+    height: 30%;
 }
